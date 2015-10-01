@@ -5,10 +5,11 @@
 <head>
     <title>Primera Escena con Three.js</title>
     <script type="text/javascript" src="../lib/three.js"></script>
+    <script type="text/javascript" src="../lib/stats.min.js"></script>
     <script type="text/javascript" src="../ejercicios/ejemplo.js"></script>
     <style>
         body{
-            font-family: Monospace;
+     font-family: Monospace;
      background-color: #f0f0f0;
      margin: 0px;
      overflow: hidden;
@@ -17,8 +18,10 @@
     </style>
 </head>
 <body onload="inicial();">
+<div id="stats-salida"> 
+</div>
 <!-- Div que contendrá la salida -->
-<div  id="WebGL-salida" style="width : 100%; height : 100%">
+<div  id="container" style="width : 100%; height : 100%">
 </div>
 <!-- Código Javascript que ejecuta nuestros ejemplos Three.js -->
 </body>
